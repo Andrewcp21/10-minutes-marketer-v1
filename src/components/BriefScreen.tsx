@@ -47,7 +47,7 @@ const BriefScreen: React.FC = () => {
           <h3 className="font-semibold text-yellow-800 mb-2">Your Task</h3>
           <p className="text-yellow-700">
             You have 10 minutes to create an Instagram post for {state.clientName}. 
-            You'll need to fill out a campaign form, generate a poster image, write a caption, 
+            You&apos;ll need to fill out a campaign form, generate a poster image, write a caption, 
             and submit your work for feedback.
           </p>
         </div>

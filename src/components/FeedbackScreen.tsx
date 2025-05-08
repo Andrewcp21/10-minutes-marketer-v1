@@ -40,7 +40,7 @@ const FeedbackScreen: React.FC = () => {
                   className="w-full h-full object-cover"
                   width={48}
                   height={48}
-                  onError={(e: any) => {
+                  onError={(e: React.SyntheticEvent<HTMLImageElement, Event>) => {
                     console.error(`Error loading client logo: ${state.clientName}`); 
                     e.currentTarget.style.display = 'none';
                     const parent = e.currentTarget.parentElement;
